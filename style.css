@@ -1,0 +1,50 @@
+::-webkit-scrollbar
+{
+    display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border-collapse: inherit;
+}
+.font-default, body {
+  font-family: Montserrat,sans-serif;
+}
+body 
+{
+	background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+.Footer {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transform: rotate(-90deg) translateX(100%);
+  transform-origin: bottom right;
+  font-size: 14px;
+}
+:not(body) {
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+ul{
+  list-style: none;
+  
+}
+.Footer li {
+  display: inline-block;
+  margin-right: 20px;
+  
+}
+a {
+  color: #86887b;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#86887bb4; 
+  text-decoration:none; 
+  cursor:pointer;  
+}
